@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #2c2b29; /* Replace with desired background color */
+}
+
+header {
+    background-color: #2c2b29; /* Replace with desired header color */
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #007BFF;
+	font-weight: bold;
+}
+
+nav a:hover {
+	text-decoration: underline
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 60px); /* Adjust height as needed */
+	background-color: #2c2b29;
+}
+
+section1 {
+    height: 234px;
+	width: 60px;
+	display: block;
+	align-content: center;
+}
+
+section {
+	color: #BFBFB9;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+}
+
+.slide.active {
+  display: block;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+.Logo {
+	
+	height: 400px;
+	width: 800px;
+}
+
+.slideshow-container {
+	
+	height: 400px;
+	width: 400px;
+}
